@@ -36,5 +36,5 @@
 •	Deskripsi: Menampilkan pesan sukses setelah pembelian.  
 •	Navigasi bawah: home untuk Kembali ke halaman utama, profil bagian data diri.
 
-![canvas_ui-241112_0037](https://github.com/user-attachments/assets/033e9bac-10ff-4334-b622-44b0bbeb9a30)
+![canvas_ui-241218_1339](https://github.com/user-attachments/assets/6fd214e5-5572-4d6b-aa41-87e0e07c7b72)
 
