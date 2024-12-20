@@ -11,7 +11,7 @@
 
 2.	Halaman Profil  
 •	Deskripsi: Mengisi data pengguna dan menampilkan data pengguna.  
-             Jika Pengguna Mengisi username maka otomatis nama juga keisi, jadi username dan sama saling terhubung.  
+             Jika Pengguna Mengisi username maka otomatis nama juga keisi, jadi username dan nama saling terhubung.  
 •	Alur: Pengguna dapat kembali ke Halaman Utama.  
 
 4.	Halaman Utama  
