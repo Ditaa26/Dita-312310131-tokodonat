@@ -156,6 +156,10 @@
         "source": "com.example.tokodonat.app-main-31:/drawable/donat3.png"
     },
     {
+        "merged": "com.example.tokodonat.app-merged_res-29:/layout_activity_detail_produk2.xml.flat",
+        "source": "com.example.tokodonat.app-main-31:/layout/activity_detail_produk2.xml"
+    },
+    {
         "merged": "com.example.tokodonat.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.example.tokodonat.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },

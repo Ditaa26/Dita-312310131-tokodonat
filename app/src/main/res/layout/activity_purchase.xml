@@ -59,12 +59,12 @@
         android:id="@+id/LinearPembayaran"
         android:layout_width="352dp"
         android:layout_height="86dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:background="#F7A1B3"
         android:orientation="horizontal"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearBayar">
 
@@ -186,10 +186,10 @@
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573">
+        app:layout_constraintVertical_bias="0.545">
 
         <TextView
             android:id="@+id/totalPesanan"
@@ -206,7 +206,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
-            android:text="@string/total"
+            android:text="@string/total_harga"
             android:textColor="#980003"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -216,8 +216,8 @@
         android:id="@+id/tv_metodePembayaran"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="320dp"
         android:fontFamily="sans-serif"
         android:text="@string/metode"
         android:textColor="#980003"
@@ -295,7 +295,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
-
 
         <ImageView
             android:id="@+id/home_image_view3"

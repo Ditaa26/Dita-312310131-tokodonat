@@ -2897,7 +2897,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addressLabel
+id alamatInput
+id alamatLabel
 id alertTitle
 id aligned
 id all
@@ -2981,7 +2982,6 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
-id delivery_time
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3017,6 +3017,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emailInput
 id emailLabel
 id embed
 id end
@@ -3177,6 +3178,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameInput
 id nameLabel
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3191,6 +3193,8 @@ id neverCompleteToStart
 id nexttextview
 id noScroll
 id noState
+id nomortelponInput
+id nomortelponLabel
 id none
 id normal
 id north
@@ -3214,13 +3218,11 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id phoneLabel
 id pin
 id plus1
 id plus2
 id position
 id postLayout
-id prepare_money
 id pressed
 id profileImage
 id profile_image_view
@@ -3502,6 +3504,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_closing
 layout activity_detail_produk
+layout activity_detail_produk2
 layout activity_homepage
 layout activity_main
 layout activity_menu
@@ -3642,6 +3645,7 @@ string data_diri
 string delivery_boy_desc
 string delivery_time
 string detail_harga_macha
+string detail_harga_strawberry
 string detail_macha
 string detail_product
 string donat_macha
@@ -3660,6 +3664,7 @@ string home_content_description
 string home_icon_desc
 string icon_content_description
 string isi_macha
+string isi_strawberry
 string item_view_role_description
 string jumlah
 string jumlah_bayar
@@ -3784,6 +3789,7 @@ string price
 string profile_content_description
 string profile_icon_desc
 string purchasing
+string save
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -3796,7 +3802,8 @@ string strawberry_content_description
 string sweet_donuts
 string sweet_message
 string thank_you
-string total
+string titik
+string total_harga
 string total_pesanan
 string user_icon_desc
 string user_name

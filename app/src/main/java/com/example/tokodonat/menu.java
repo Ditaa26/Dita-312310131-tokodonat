@@ -12,13 +12,12 @@ import android.widget.TextView;
 public class menu extends AppCompatActivity {
     private LinearLayout item1, item2;
     private TextView textJumlah1, textJumlah2, textJumlahBayar, textHargaBayar;
-    private ImageView plusButton1, minusButton1, plusButton2, minusButton2, backButton; // Deklarasi backButton
+    private ImageView plusButton1, minusButton1, plusButton2, minusButton2, backButton;
     private int hargaPerDonat1 = 7000; // Harga Donat Matcha
     private int hargaPerDonat2 = 10000; // Harga Donat Strawberry
     private int jumlahItem1 = 0;
     private int jumlahItem2 = 0;
     private ImageView homeImageView, profileImageView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +45,11 @@ public class menu extends AppCompatActivity {
 
         item1.setOnClickListener(view -> {
             Intent intent = new Intent(menu.this, detail_produk.class);
+            startActivity(intent);
+        });
+
+        item2.setOnClickListener(view -> {
+            Intent intent = new Intent(menu.this, detail_produk2.class);
             startActivity(intent);
         });
 
@@ -84,8 +88,21 @@ public class menu extends AppCompatActivity {
         Button beliButton = findViewById(R.id.Beli);
         beliButton.setOnClickListener(v -> {
             Intent intent = new Intent(menu.this, purchase.class);
+
+            // Kirim data donat Matcha
+            intent.putExtra("hargaDonat1", hargaPerDonat1);
+            intent.putExtra("jumlahDonat1", jumlahItem1);
+            intent.putExtra("gambarDonat1", R.drawable.macha); // ID gambar dari drawable
+
+            // Kirim data donat Strawberry
+            intent.putExtra("hargaDonat2", hargaPerDonat2);
+            intent.putExtra("jumlahDonat2", jumlahItem2);
+            intent.putExtra("gambarDonat2", R.drawable.strawberry); // ID gambar dari drawable
+
+            // Kirim total jumlah dan harga
             intent.putExtra("totalJumlah", jumlahItem1 + jumlahItem2);
             intent.putExtra("totalHarga", (jumlahItem1 * hargaPerDonat1) + (jumlahItem2 * hargaPerDonat2));
+
             startActivity(intent);
         });
 
@@ -110,5 +127,3 @@ public class menu extends AppCompatActivity {
         textHargaBayar.setText("Rp " + totalHarga);
     }
 }
-
-

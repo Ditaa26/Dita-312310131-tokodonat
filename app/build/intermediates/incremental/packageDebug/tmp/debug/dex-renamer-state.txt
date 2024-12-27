@@ -1,4 +1,4 @@
-#Mon Nov 11 17:05:15 ICT 2024
+#Fri Dec 27 07:16:38 ICT 2024
 base.2=C\:\\Users\\HP\\AndroidStudioProjects\\tokodonat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
 base.1=C\:\\Users\\HP\\AndroidStudioProjects\\tokodonat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

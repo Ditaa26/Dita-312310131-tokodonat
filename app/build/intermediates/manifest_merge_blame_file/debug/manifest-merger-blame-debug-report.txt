@@ -22,7 +22,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:5:5-70:19
+17-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:5:5-77:19
 18        android:allowBackup="true"
 18-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,8 +46,8 @@
 29-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:13:9-47
 30        <activity
 30-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:15:9-21:20
-31            android:name="com.example.tokodonat.purchase"
-31-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:16:13-37
+31            android:name="com.example.tokodonat.detail_produk2"
+31-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:16:13-43
 32            android:exported="false" >
 32-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:17:13-37
 33            <meta-data
@@ -59,8 +59,8 @@
 36        </activity>
 37        <activity
 37-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:22:9-28:20
-38            android:name="com.example.tokodonat.menu"
-38-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:23:13-33
+38            android:name="com.example.tokodonat.purchase"
+38-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:23:13-37
 39            android:exported="false" >
 39-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:24:13-37
 40            <meta-data
@@ -72,8 +72,8 @@
 43        </activity>
 44        <activity
 44-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:29:9-35:20
-45            android:name="com.example.tokodonat.closing"
-45-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:30:13-36
+45            android:name="com.example.tokodonat.menu"
+45-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:30:13-33
 46            android:exported="false" >
 46-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:31:13-37
 47            <meta-data
@@ -85,8 +85,8 @@
 50        </activity>
 51        <activity
 51-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:36:9-42:20
-52            android:name="com.example.tokodonat.detail_produk"
-52-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:37:13-42
+52            android:name="com.example.tokodonat.closing"
+52-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:37:13-36
 53            android:exported="false" >
 53-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:38:13-37
 54            <meta-data
@@ -98,8 +98,8 @@
 57        </activity>
 58        <activity
 58-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:43:9-49:20
-59            android:name="com.example.tokodonat.profile"
-59-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:44:13-36
+59            android:name="com.example.tokodonat.detail_produk"
+59-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:44:13-42
 60            android:exported="false" >
 60-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:45:13-37
 61            <meta-data
@@ -111,8 +111,8 @@
 64        </activity>
 65        <activity
 65-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:50:9-56:20
-66            android:name="com.example.tokodonat.homepage"
-66-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:51:13-37
+66            android:name="com.example.tokodonat.profile"
+66-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:51:13-36
 67            android:exported="false" >
 67-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:52:13-37
 68            <meta-data
@@ -123,51 +123,64 @@
 70-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:20:17-33
 71        </activity>
 72        <activity
-72-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:57:9-69:20
-73            android:name="com.example.tokodonat.MainActivity"
-73-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:58:13-41
-74            android:exported="true" >
-74-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:59:13-36
-75            <intent-filter>
-75-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:60:13-64:29
-76                <action android:name="android.intent.action.MAIN" />
-76-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:61:17-69
-76-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:61:25-66
-77
-78                <category android:name="android.intent.category.LAUNCHER" />
-78-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:63:17-77
-78-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:63:27-74
-79            </intent-filter>
-80
-81            <meta-data
-81-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:18:13-20:36
-82                android:name="android.app.lib_name"
-82-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:19:17-52
-83                android:value="" />
-83-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:20:17-33
-84        </activity>
-85
-86        <provider
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-87            android:name="androidx.startup.InitializationProvider"
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-88            android:authorities="com.example.tokodonat.androidx-startup"
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-89            android:exported="false" >
-89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-90            <meta-data
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-92                android:value="androidx.startup" />
-92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-93            <meta-data
-93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-95                android:value="androidx.startup" />
-95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-96        </provider>
-97    </application>
-98
-99</manifest>
+72-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:57:9-63:20
+73            android:name="com.example.tokodonat.homepage"
+73-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:58:13-37
+74            android:exported="false" >
+74-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:59:13-37
+75            <meta-data
+75-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:18:13-20:36
+76                android:name="android.app.lib_name"
+76-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:19:17-52
+77                android:value="" />
+77-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:20:17-33
+78        </activity>
+79        <activity
+79-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:64:9-76:20
+80            android:name="com.example.tokodonat.MainActivity"
+80-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:65:13-41
+81            android:exported="true" >
+81-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:66:13-36
+82            <intent-filter>
+82-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:67:13-71:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:68:17-69
+83-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:68:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:70:17-77
+85-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:70:27-74
+86            </intent-filter>
+87
+88            <meta-data
+88-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:18:13-20:36
+89                android:name="android.app.lib_name"
+89-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:19:17-52
+90                android:value="" />
+90-->C:\Users\HP\AndroidStudioProjects\tokodonat\app\src\main\AndroidManifest.xml:20:17-33
+91        </activity>
+92
+93        <provider
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+94            android:name="androidx.startup.InitializationProvider"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+95            android:authorities="com.example.tokodonat.androidx-startup"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+96            android:exported="false" >
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+97            <meta-data
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+99                android:value="androidx.startup" />
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+102                android:value="androidx.startup" />
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+103        </provider>
+104    </application>
+105
+106</manifest>

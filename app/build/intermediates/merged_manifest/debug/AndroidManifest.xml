@@ -28,6 +28,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.TokoDonat" >
         <activity
+            android:name="com.example.tokodonat.detail_produk2"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.tokodonat.purchase"
             android:exported="false" >
             <meta-data

@@ -7,63 +7,41 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
 
+
     <LinearLayout
         android:id="@+id/header_container"
-        android:layout_width="382dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="412dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="4dp"
         android:background="#F48FB1"
         android:orientation="horizontal"
-        android:padding="16dp"
+        android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <ImageView
             android:id="@+id/logo_image3"
-            android:layout_width="61dp"
-            android:layout_height="69dp"
+            android:layout_width="131dp"
+            android:layout_height="98dp"
             android:layout_marginEnd="8dp"
             android:contentDescription="@string/logo_toko"
+            android:scaleType="centerInside"
             android:src="@drawable/logo" />
 
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
-            android:orientation="vertical">
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif"
+            android:text="@string/store_name"
+            android:textColor="#980003"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/store_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/store_name"
-                android:textColor="#980003"
-                android:fontFamily="sans-serif"
-                android:textSize="15sp"
-                android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/delivery_time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/delivery_time"
-                android:fontFamily="sans-serif"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/prepare_money"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/prepare_money"
-                android:fontFamily="sans-serif"
-                android:textColor="#000000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
-        </LinearLayout>
     </LinearLayout>
 
     <TextView

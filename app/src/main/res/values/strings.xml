@@ -22,10 +22,11 @@
     <string name="user_icon_desc">Ikon Pengguna</string>
     <string name="user_name">Username</string>
     <string name="data_diri">Data Diri</string>
-    <string name="email">Email: ditatiara@gmail.com</string>
-    <string name="nama">Nama: Dita Tp</string>
-    <string name="nomor_telepon">Nomor Telepon: 081387701008</string>
-    <string name="alamat">Alamat: Mega Regency</string>
+    <string name="email">Email:</string>
+    <string name="nama">Nama:</string>
+    <string name="nomor_telepon">Nomor Telepon:</string>
+    <string name="alamat">Alamat:</string>
+    <string name="titik">.....</string>
     <string name="logo_toko">Logo Toko</string>
     <string name="store_name">Sweet Donuts</string>
     <string name="delivery_time">Kita akan tiba setelah 20 menit</string>
@@ -40,7 +41,9 @@
     <string name="logo">Deskripsi Logo</string>
     <string name="detail_macha">Donat Macha</string>
     <string name="isi_macha">Donat lembut yang diisi dan dilapisi dengan selai matcha premium, menciptakan rasa teh hijau yang khas. Dilengkapi dengan krim putih di atasnya, memberikan perpaduan sempurna antara rasa matcha yang kaya dan kelembutan krim yang manis. Cocok untuk dinikmati kapan saja, terutama bagi pecinta matcha.</string>
+    <string name="isi_strawberry">onat ini memiliki tekstur empuk, dengan lapisan topping glaze strawberry yang berkilau dan menggoda, memberikan sentuhan rasa manis dan asam yang sempurna. Beberapa varian dihiasi dengan potongan buah strawberry segar atau taburan gula halus untuk mempercantik tampilannya. </string>
     <string name="detail_harga_macha">Rp7000</string>
+    <string name="detail_harga_strawberry">Rp10000</string>
     <string name="plus_button">icon plus</string>
     <string name="min_button">icon min</string>
     <string name="jumlah">0</string>
@@ -49,13 +52,14 @@
     <string name="buy">Beli</string>
     <string name="price">Rp 0</string>
     <string name="purchasing">Pembayaran</string>
-    <string name="total_pesanan">Total Pesanan: Rp 0</string>
+    <string name="total_pesanan">Total Pesanan: %1$d Item</string>
+    <string name="total_harga">Total: Rp %1$d</string>
     <string name="biaya_layanan">Biaya Layanan: Rp 0</string>
-    <string name="total">Total: Rp0</string>
     <string name="cod_content_description">gambar cod</string>
     <string name="metode">Metode Pembayaran</string>
     <string name="cash_on_delivery">Cash On Delivery</string>
     <string name="next">Selanjutnya</string>
     <string name="jumlah_bulat">0</string>
     <string name="jumlah_bulat2">0</string>
+    <string name="save">Simpan</string>
 </resources>
